@@ -10,7 +10,7 @@ Este repositório contém a implementação do mecanismo de **Scaled Dot-Product
 
 | Sistema Operacional | Como Abrir o Terminal | Comando para Rodar |
 | :--- | :--- | :--- |
-| **Windows** | Entre na pasta, segure `Shift`, clique com o botão direito e escolha **"Abrir janela de PowerShell aqui"**. | `python test_attention.py` |
+| **Windows** | Entre na pasta, segure o `Shift`, clique com o botão direito e escolha **"Abrir janela de PowerShell aqui"**. | `python test_attention.py` |
 | **Linux (Ubuntu/Debian)** | Clique com o botão direito na pasta e selecione **"Abrir no terminal"** ou use `Ctrl + Alt + T`. | `python3 test_attention.py` |
 | **macOS** | Clique com o botão direito na pasta, vá em **"Serviços"** e selecione **"Novo Terminal na Pasta"**. | `python3 test_attention.py` |
 
