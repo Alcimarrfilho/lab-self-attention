@@ -4,7 +4,7 @@ Este repositório contém a implementação do mecanismo de **Scaled Dot-Product
 
 ## Como Executar:
 1. Baixar o ProjetoNo topo desta página, clique no botão verde "<> Code".Selecione "Download ZIP" e extraia os arquivos no seu computador.
-2. Instalar Dependências em qualquer sistema, você precisará da biblioteca NumPy. Abra o terminal do seu sistema e digite:          Bashpip install numpy
+2. Instalar Dependências em qualquer sistema, você precisará da biblioteca NumPy. Abra o terminal do seu sistema e digite:              pip install numpy
 3. Execução por Sistema Operacional:
 ### Execução por Sistema Operacional
 
