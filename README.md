@@ -2,12 +2,17 @@ Lab P1-01: Mecanismo de Self-Attention
 
 Este repositório contém a implementação do mecanismo de **Scaled Dot-Product Attention** utilizando a biblioteca NumPy.
 
-## Como Executar
-1. Certifique-se de ter o Python e o NumPy instalados:
-   ```powershell
-   pip install numpy
-2. Execute no powershell o script de teste para validar a implementação:
-python test_attention.py
+## Como Executar:
+1. Baixar o ProjetoNo topo desta página, clique no botão verde "<> Code".Selecione "Download ZIP" e extraia os arquivos no seu computador.
+2. Instalar Dependências em qualquer sistema, você precisará da biblioteca NumPy. Abra o terminal do seu sistema e digite:          Bashpip install numpy
+3. Execução por Sistema Operacional:
+### Execução por Sistema Operacional
+
+| Sistema Operacional | Como Abrir o Terminal | Comando para Rodar |
+| :--- | :--- | :--- |
+| **Windows** | Entre na pasta, segure `Shift`, clique com o botão direito e escolha **"Abrir janela de PowerShell aqui"**. | `python test_attention.py` |
+| **Linux (Ubuntu/Debian)** | Clique com o botão direito na pasta e selecione **"Abrir no terminal"** ou use `Ctrl + Alt + T`. | `python3 test_attention.py` |
+| **macOS** | Clique com o botão direito na pasta, vá em **"Serviços"** e selecione **"Novo Terminal na Pasta"**. | `python3 test_attention.py` |
 
 A função de atenção foi implementada seguindo a fórmula oficial:                                                               $$Attention(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V$$
 Por que usar o fator de escala $\sqrt{d_k}$? Precisamos utilizae a normalização pela raiz quadrada da dimensão das chaves ($d_k$). Sem esse ajuste, o produto escalar $QK^T$ resultaria em valores de magnitude muito alta. Isso faria com que a função Softmax atingisse regiões de saturação onde os gradientes são extremamente pequenos, dificultando ou impedindo o treinamento do modelo.
